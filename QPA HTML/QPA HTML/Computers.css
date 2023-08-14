@@ -1,0 +1,135 @@
+body {background-color: #08d7ff;}
+
+#MainBox {width: 1000px; background-color: white;
+    border: 3px solid black;
+    text-align: left;
+    padding: 15px
+
+}
+
+h1 {color: #FF1C01; font-family: "Comic Sans";font-weight: bold;}
+
+h2 {color: #FF1C01; font-family: "Comic Sans"; font-weight: bold;}
+
+nav a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+    font-size: 14pt;
+    
+}
+
+nav a:visited {
+    color: blue;
+    text-decoration: none;
+    font-size: 14pt;
+    
+}
+
+nav a:hover {
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+p li a:link, a:visited {
+    color: green;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+p li a:visited {
+    color: green;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+p, li {font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 120%;}
+
+.generations {color: #FF1C01; font-weight: 500; font-size: 14pt; text-decoration-line: underline;}
+
+.quotes {color: black; font-style: italic; font-size: 13pt;font-family: 'Times New Roman', Times, serif;}
+
+.footer {color:white; font-style:italic; font-size: 9pt; background-color: darkblue;}
+
+.bold {font-weight: bold;}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
